@@ -1,6 +1,8 @@
 body {
-  background-color: #212529;
+  background-color: #242424;
   height: 100%;
   overflow-x: hidden;
   width: 100%;
+  color: #fff;
+  font-family: 'inter';
 }

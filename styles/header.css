@@ -1,0 +1,15 @@
+.header-content {
+  display: flex;
+  padding-top: 37px;
+  padding-left: 181px;
+}
+
+.header-content p {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.header-content p:not(:first-child) {
+  color: #00FF66;
+  padding-left: 8px;
+}
