@@ -2,13 +2,10 @@ body {
   background-color: #242424;
   height: 100%;
   overflow-x: hidden;
-  width: 100%;
   color: #fff;
   font-family: 'inter';
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0;
-  width: 1006px;
+}
 
+div {
+  width: 100%;
 }

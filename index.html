@@ -13,9 +13,11 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin></script>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
   <!--CSS Page-->
+  <link rel="stylesheet" href="styles/reset.css">
   <link rel="stylesheet" href="styles/body.css">
   <link rel="stylesheet" href="styles/header.css">
   <link rel="stylesheet" href="styles/menu.css">
+  <link rel="stylesheet" href="styles/cameras.css">
 </head>
 <body>
   <div class="page">
@@ -27,11 +29,115 @@
       </div>
     </div>
     <!-- menu -->
-    <div class="menu d-flex justify-content-between">
-      <a href="#" class="text-decoration-none text-white">Visualização em Tempo Real</a>
-      <a href="#" class="text-decoration-none text-white">Veículos</a>
-      <a href="#" class="text-decoration-none text-white">Antenas</a>
-      <a href="#" class="text-decoration-none text-white">Mapa Interativo de Fluxo</a>
+    <div class="menu">
+        <a href="#" class="text-decoration-none text-white selected menu-item">Visualização em Tempo Real</a>
+        <a href="#" class="text-decoration-none text-white menu-item">Veículos</a>
+        <a href="#" class="text-decoration-none text-white menu-item">Antenas</a>
+        <a href="#" class="text-decoration-none text-white menu-item">Mapa Interativo de Fluxo</a>
+    </div>
+    <!-- visuzalização de camrera -->
+    <div class="cameras d-flex flex-column">
+      <div>
+        <h2>Visualização de Câmeras</h2>
+      </div>
+      <div class="camera-container mt-4">
+        <div class="camera-item mb-4">
+          <div class="d-flex justify-content-between camera-title-container pb-2">
+            <div>
+              <p class="camera-title">Câmera 1</p>
+            </div>
+            <div class="d-flex p-0">
+              <p class="camera-title text-nowrap pr-2">
+                Status: Comportamento estranho
+              </p>
+              <div class="badge-status"></div>
+            </div>
+          </div>
+          <div>
+            <img src="/images/cam.png" alt="camera" class="img-cam warning"/>
+          </div>
+        </div>
+        <div class="camera-item mb-4">
+          <div class="d-flex justify-content-between camera-title-container pb-2">
+            <div>
+              <p class="camera-title">Câmera 1</p>
+            </div>
+            <div class="d-flex p-0">
+              <p class="camera-title text-nowrap pr-2">
+                Status: Funcionando
+              </p>
+              <div class="badge-status-working"></div>
+            </div>
+          </div>
+          <div>
+            <img src="/images/cam.png" alt="camera" class="img-cam "/>
+          </div>
+        </div>
+        <div class="camera-item mb-4">
+          <div class="d-flex justify-content-between camera-title-container pb-2">
+            <div>
+              <p class="camera-title">Câmera 1</p>
+            </div>
+            <div class="d-flex p-0">
+              <p class="camera-title text-nowrap pr-2">
+                Status: Funcionando
+              </p>
+              <div class="badge-status-working"></div>
+            </div>
+          </div>
+          <div>
+            <img src="/images/cam.png" alt="camera" class="img-cam warning"/>
+          </div>
+        </div>
+        <div class="camera-item">
+          <div class="d-flex justify-content-between camera-title-container pb-2">
+            <div>
+              <p class="camera-title">Câmera 1</p>
+            </div>
+            <div class="d-flex p-0">
+              <p class="camera-title text-nowrap pr-2">
+                Status: Fora do ar
+              </p>
+              <div class="badge-status"></div>
+            </div>
+          </div>
+          <div>
+            <img src="/images/cam.png" alt="camera" class="img-cam warning"/>
+          </div>
+        </div>
+        <div class="camera-item">
+          <div class="d-flex justify-content-between camera-title-container pb-2">
+            <div>
+              <p class="camera-title">Câmera 1</p>
+            </div>
+            <div class="d-flex p-0">
+              <p class="camera-title text-nowrap pr-2">
+                Status: Em manutenção
+              </p>
+              <div class="badge-status-maintenance"></div>
+            </div>
+          </div>
+          <div>
+            <img src="/images/cam.png" alt="camera" class="img-cam warning"/>
+          </div>
+        </div>
+        <div class="camera-item">
+          <div class="d-flex justify-content-between camera-title-container pb-2">
+            <div>
+              <p class="camera-title">Câmera 1</p>
+            </div>
+            <div class="d-flex p-0">
+              <p class="camera-title text-nowrap pr-2">
+                Status: Fora do ar
+              </p>
+              <div class="badge-status"></div>
+            </div>
+          </div>
+          <div>
+            <img src="/images/cam.png" alt="camera" class="img-cam warning"/>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </body>

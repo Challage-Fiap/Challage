@@ -1,0 +1,64 @@
+.cameras {
+  margin-top: 32px;
+}
+
+.cameras h2 {
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 21.78px;
+  color: #EEEEEE;
+}
+
+.camera-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns, each with 1fr */
+  grid-fit-content: fit-content;
+  width: 1006px;
+}
+
+.camera-item {
+  width: 314px !important;
+  height: 208px !important;
+}
+
+.img-cam {
+  width: 312px;
+  height: 182px;
+  border-radius: 11px;
+}
+
+.camera-title-container div {
+  width: fit-content;
+}
+
+.camera-title {
+  font-size: 12px;
+  font-weight: 600;
+  color: #EEEEEE;
+  margin: 0 !important;
+}
+
+.badge-status {
+  background-color: #FF0000 !important;
+  width: 12px !important;
+  height: 12px !important;
+  border-radius: 50px !important;
+}
+
+.warning {
+  border: 2px solid #FF0000
+}
+
+.badge-status-working {
+  background-color: #00FF66 !important;
+  width: 12px !important;
+  height: 12px !important;
+  border-radius: 50px !important;
+}
+
+.badge-status-maintenance {
+  background-color: #FAFF00 !important;
+  width: 12px !important;
+  height: 12px !important;
+  border-radius: 50px !important;
+}
