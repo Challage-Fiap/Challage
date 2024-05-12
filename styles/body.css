@@ -5,4 +5,10 @@ body {
   width: 100%;
   color: #fff;
   font-family: 'inter';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  width: 1006px;
+
 }
