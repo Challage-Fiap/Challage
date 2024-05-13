@@ -11,6 +11,8 @@ div {
 }
 
 .page {
+  width: 1006px;  /* Set fixed width */
+  margin: 0 auto;  /* Center horizontally */
   padding-bottom: 50px;
 }
 

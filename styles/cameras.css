@@ -1,6 +1,4 @@
 .cameras {
-  padding-left: 180px;
-  padding-right: 180px;
   margin-top: 32px;
 }
 
@@ -20,7 +18,7 @@
 
 .camera-item {
   width: 314px !important;
-  height: 208px !important;
+  height: 207px !important;
 }
 
 .img-cam {
