@@ -1,9 +1,9 @@
 # Challenge - TecSidel
 
 
-#### Enzo 
-#### Italo 
-#### Lais 
+#### Enzo
+#### Italo
+#### Lais
 #### Guilherme
 #### Pedro
 

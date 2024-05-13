@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="styles/header.css">
   <link rel="stylesheet" href="styles/menu.css">
   <link rel="stylesheet" href="styles/cameras.css">
+  <link rel="stylesheet" href="styles/veiculos.css">
 </head>
 <body>
   <div class="page">
@@ -36,6 +37,7 @@
         <a href="#" class="text-decoration-none text-white menu-item">Mapa Interativo de Fluxo</a>
     </div>
     <!-- visuzalização de camrera -->
+    <!-- falta arrumar as fotos dew status -->
     <div class="cameras d-flex flex-column">
       <div>
         <h2>Visualização de Câmeras</h2>
@@ -86,7 +88,7 @@
             </div>
           </div>
           <div>
-            <img src="/images/cam.png" alt="camera" class="img-cam warning"/>
+            <img src="/images/cam.png" alt="camera" class="img-cam"/>
           </div>
         </div>
         <div class="camera-item">
@@ -102,7 +104,7 @@
             </div>
           </div>
           <div>
-            <img src="/images/cam.png" alt="camera" class="img-cam warning"/>
+            <img src="/images/foraDoAr.svg" alt="camera" class="img-cam"/>
           </div>
         </div>
         <div class="camera-item">
@@ -118,7 +120,7 @@
             </div>
           </div>
           <div>
-            <img src="/images/cam.png" alt="camera" class="img-cam warning"/>
+            <img src="/images/maintence.svg" alt="camera" class="img-cam"/>
           </div>
         </div>
         <div class="camera-item">
@@ -134,9 +136,81 @@
             </div>
           </div>
           <div>
-            <img src="/images/cam.png" alt="camera" class="img-cam warning"/>
+            <img src="/images/foraDoAr.svg" alt="camera" class="img-cam"/>
           </div>
         </div>
+      </div>
+    </div>
+    <!-- veiculos -->
+    <div class="table_">
+      <div class="table-title pb-4">
+        <p>Veículos</p>
+      </div>
+      <div class="pl-2">
+        <table class="">
+          <thead>
+            <th>Veículo</th>
+            <th>Placa</th>
+            <th>Data e hora</th>
+            <th>Informação</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Fiat Argo</td>
+              <td>BRA2E19</td>
+              <td>10/02/2024 - 12:10</td>
+              <td>Pedágio manual</td>
+            </tr>
+            <tr>
+              <td>Renault Clio</td>
+              <td>BRA2E17</td>
+              <td>10/02/2024 - 12:10</td>
+              <td>Sem parar</td>
+            </tr>
+            <tr>
+              <td>Fiat Argo</td>
+              <td>BRA2E19</td>
+              <td>10/02/2024 - 12:10</td>
+              <td>Pedágio manual</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <!-- antenas -->
+    <div class="table_">
+      <div class="table-title pb-4">
+        <p>Antenas</p>
+      </div>
+      <div class="pl-2">
+        <table class="">
+          <thead>
+            <th>Antena</th>
+            <th>Tipo</th>
+            <th>Data e hora</th>
+            <th>Status</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Antena 1</td>
+              <td>Antenas RFID</td>
+              <td>10/02/2024 - 12:10</td>
+              <td>Funcionando</td>
+            </tr>
+            <tr>
+              <td>Antena 2</td>
+              <td>Antenas RFID</td>
+              <td>10/02/2024 - 12:10</td>
+              <td>Fora do ar</td>
+            </tr>
+            <tr>
+              <td>Antena 3</td>
+              <td>Antenas RFID</td>
+              <td>10/02/2024 - 12:10</td>
+              <td>Em manutenção</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </div>
   </div>

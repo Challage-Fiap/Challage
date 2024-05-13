@@ -1,0 +1,37 @@
+.table_ {
+  padding-top: 32px;
+  padding-left: 180px;
+  padding-right: 180px;
+  font-size: 14px;
+  color: #EEEEEE;
+}
+
+.table-title {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+th, td {
+  width: 247.5px;
+  vertical-align: middle;
+
+}
+
+td:last-child {
+  text-align: end;
+  padding-right: 8px;
+}
+
+th:last-child {
+  text-align: end;
+  padding-right: 8px;
+}
+
+tr {
+  height: 32px;
+  width: 10006px;
+}
+
+tr:nth-child(2) {
+  background-color: #00FF661A;
+}
