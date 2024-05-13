@@ -35,3 +35,20 @@ tr {
 tr:nth-child(2) {
   background-color: #00FF661A;
 }
+
+.seeMore {
+  display: flex;
+  white-space: nowrap;
+  border-radius: 4px;
+  background-color: #00FF664D;
+  border: 1px solid #00FF66;
+  font-size: 12px;
+  color: #FFFFFF;
+  padding: 8px;
+  width: 67px !important;
+  height: 31px !important;;
+}
+
+.seeMore:hover {
+  background-color: #00ff6671
+}
