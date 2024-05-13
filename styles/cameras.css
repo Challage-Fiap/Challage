@@ -14,6 +14,7 @@
   grid-template-columns: repeat(3, 1fr);
   justify-content: center;
   width: 1006px;
+  gap: 32px;
 }
 
 .camera-item {
@@ -22,7 +23,7 @@
 }
 
 .img-cam {
-  width: 312px;
+  width: 314px;
   height: 182px;
   border-radius: 11px;
 }
