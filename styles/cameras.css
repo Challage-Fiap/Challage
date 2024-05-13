@@ -15,6 +15,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* 3 columns, each with 1fr */
   grid-fit-content: fit-content;
+  justify-content: center;
   width: 1006px;
 }
 

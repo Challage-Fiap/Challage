@@ -1,9 +1,9 @@
 .table_ {
   padding-top: 32px;
-  padding-left: 180px;
-  padding-right: 180px;
+  margin-left: 180px;
   font-size: 14px;
   color: #EEEEEE;
+  width: 1006px;
 }
 
 .table-title {
@@ -12,7 +12,7 @@
 }
 
 th, td {
-  width: 247.5px;
+  width: 252px;
   vertical-align: middle;
 
 }
@@ -32,11 +32,12 @@ tr {
   width: 10006px;
 }
 
-tr:nth-child(2) {
+tr:nth-child(even) {
   background-color: #00FF661A;
 }
 
 .seeMore {
+  margin-top: 16px;
   display: flex;
   white-space: nowrap;
   border-radius: 4px;
