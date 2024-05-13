@@ -54,7 +54,6 @@ tr:nth-child(even) {
   background-color: #00FF664D;
   border: 1px solid #00FF66;
   font-size: 12px;
-  color: #FFFFFF;
   padding: 8px;
   width: 67px !important;
   height: 31px !important;;
@@ -62,4 +61,9 @@ tr:nth-child(even) {
 
 .seeMore:hover {
   background-color: #00ff6671
+}
+
+.seeMore a {
+  text-decoration: none !important;
+  color: #FFFFFF;
 }
