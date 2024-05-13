@@ -14,12 +14,23 @@
 th, td {
   width: 252px;
   vertical-align: middle;
+}
 
+th {
+  font-weight: 700;
 }
 
 td:last-child {
   text-align: end;
-  padding-right: 8px;
+  padding-right: 8px
+}
+
+td:first-child {
+  padding-left: 8px
+}
+
+th:first-child {
+  padding-left: 8px
 }
 
 th:last-child {

@@ -9,3 +9,29 @@ body {
 div {
   width: 100%;
 }
+
+.page {
+  padding-bottom: 50px;
+}
+
+.notify {
+  position: fixed !important;
+  top: 40px !important;
+  right: 40px;
+  width: fit-content;
+  height: 31px;
+  padding: 8px 0px 0px 0px;
+  border-radius: 4px;
+  background-color: #E77A7A;
+  border: 1px solid #FF0000;
+}
+
+.notify-content {
+  display: flex;
+}
+
+.notify-content p {
+  white-space: nowrap;
+  font-size: 12px;
+  font-weight: 600;
+}
