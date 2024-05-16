@@ -1,0 +1,79 @@
+.map {
+  padding-top: 32px;
+}
+
+.content-map {
+  padding-top: 32px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 800;
+  color: #eee;
+}
+
+.content-map img {
+ width: 100%;
+ object-fit: cover;
+}
+
+.legenda {
+  padding-top: 32px;
+}
+
+.content-legenda {
+  padding-top: 32px;
+  display: flex;
+}
+
+.legend-trafic {
+  display: flex;
+  padding-bottom: 18px;
+}
+
+.legend-trafic p{
+  padding-left: 19px;
+}
+
+.fill-legend-green {
+  width: 100px;
+  height: 13px;
+  background-color: #16E098;
+}
+
+.fill-legend-red {
+  width: 100px;
+  height: 13px;
+  background-color: #E01616;
+}
+
+.fill-legend-yellow {
+  width: 100px;
+  height: 13px;
+  background-color: #DCE016;
+}
+
+
+.fill-circle-red {
+  width: 19px;
+  height: 19px;
+  border-radius: 100%;
+  background-color: #FF4D00;
+}
+
+.fill-circle-pink {
+  width: 19px;
+  height: 19px;
+  border-radius: 100%;
+  background-color: #EA00D2;
+}
+
+.content-antena {
+  display: flex;
+  padding-bottom: 18px;
+
+}
+
+.content-antena p {
+  padding-left: 19px
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Challenge - TecSidel</title>
+   <!-- Bootstrap -->
+   <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css">
+   <script type="text/javascript" href="bootstrap-4.4.1-dist/js/jqyerry-3.7.1.min.js"></script>
+   <script type="text/javascript" src="bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+   <!-- Font -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin></script>
+   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/body.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/menu.css">
+  <link rel="stylesheet" href="styles/mapa.css">
+</head>
+<body>
+  <div class="page">
+     <!-- header -->
+     <div class="header">
+      <div class="header-content">
+        <p>FREE</p>
+        <p>FLOW</p>
+      </div>
+    </div>
+    <!-- menu -->
+    <div class="menu">
+      <a href="/index.html" class="text-decoration-none text-white menu-item">Visualização em Tempo Real</a>
+      <a href="/veiculos.html" class="text-decoration-none text-white menu-item">Veículos</a>
+      <a href="/antenas.html" class="text-decoration-none text-white menu-item">Antenas</a>
+      <a href="/MapaInterativoFluxo.html" class="text-decoration-none text-white selected menu-item">Mapa Interativo de Fluxo</a>
+    </div>
+
+    <div class="map">
+      <div class="title">
+        <p>Mapa Interativo de Fluxo</p>
+      </div>
+      <div class="content-map">
+        <img src="/images/map.svg" class="" alt="">
+      </div>
+
+      <div class="legenda">
+        <div class="title-legenda">
+          <p class="title">Legenda do mapa</p>
+        </div>
+        <div class="content-legenda">
+          <div class="">
+            <div class="legend-trafic">
+              <div class="fill-legend-green"></div>
+              <p>Tráfego Rapido</p>
+            </div>
+            <div class="legend-trafic">
+              <div class="fill-legend-red"></div>
+              <p>Tráfego parado</p>
+            </div>
+            <div class="legend-trafic">
+              <div class="fill-legend-yellow"></div>
+              <p>Tráfego com lentidão</p>
+            </div>
+          </div>
+          <div>
+            <div>
+              <div class="content-antena">
+                <div class="fill-circle-pink"></div>
+                <p>Antenas RFID</p>
+              </div>
+              <div class="content-antena">
+                <div class="fill-circle-red"></div>
+                <p>Veículos</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
